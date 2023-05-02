@@ -66,7 +66,7 @@ To install the server package and get started:
 
 ```bash
 pip install llama-cpp-python[server]
-export MODEL=./models/7B/ggml-model.bin
+export MODEL=./models/7B/ggml-model.bin   # window user should instead use set MODEL=./models/7B/ggml-model.bin
 python3 -m llama_cpp.server
 ```
 
